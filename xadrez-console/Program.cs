@@ -1,7 +1,7 @@
 ﻿using System;
-using Tabuleiro;
+using tabuleiro;
 
-namespace Tabuleiro
+namespace tabuleiro
 
 
 {
@@ -9,8 +9,11 @@ namespace Tabuleiro
     {
         static void Main(string[] args)
         {
-            Tabuleiro tab = new Tabuleiro(8, 0);
+            Tabuleiro tab = new Tabuleiro(8, 8);
                 
+            Tela.imprimirTabuleiro(tab);
+
+
         }
     }
 }
